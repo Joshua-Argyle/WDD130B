@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+body {
+ background-image: url('images/space.jpg');
+ text-align: center;
+}
+h1 {
+    color: yellow;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+}
+a:link {
+ hyphens: auto; 
+ text-align: center;
+ text-decoration: none;
+ color: yellow;
+ font-family: "Dela Gothic One", sans-serif;
+ font-weight: 100;
+ font-style: normal;
+ word-spacing: 5%;
+ letter-spacing: 1px;
+ font-size: 25px;
+ display: block;
+ line-height:50px; 
+}
+a:visited {
+ hyphens: auto;
+ text-decoration: none;
+ color: aqua;
+ text-align: center;
+ font-family: "Dela Gothic One", sans-serif;
+ font-weight: 100;
+ font-style: normal;
+ word-spacing: 5%;
+ letter-spacing: 1px;
+ font-size: 25px;
+ display: block;
+ line-height: 50px;
+}
+p {
+    color: yellow;
+    text-align: center;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
