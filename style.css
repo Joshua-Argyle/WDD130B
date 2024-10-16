@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 body {
  background-image: url('images/space.jpg');
+ color: black;
  text-align: center;
 }
 h1 {
