@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Creepster&display=swap');
+body {
+    background-image: url('halloween\ background.jpg');
+    background-size: 100%;
+    text-align: center;
+    
+}
+li {
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;  
+    font-size: 30px;
+    display: inline;
+    
+}
+li:hover {
+  color: orange;
+  background-color: purple;  
+}
+h1 {
+    text-align: center;
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: red;
+    text-shadow: 5px 5px black;
+}
+
+img {
+    margin: auto;
+    border-radius: 50%;
+    border: ridge, purple;
+    border-width: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: red; 
+}
+p {
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: purple;  
+    font-size: 30px;
+    background: orange;
+    border-radius: 10%;
+    border: purple, 10px, groove;
+    
+}
+footer {
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;  
+    font-size: 20px;
+}
