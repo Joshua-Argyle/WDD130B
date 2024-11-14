@@ -1,0 +1,109 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Three</title>
+    <style>
+        body {
+            height: 100%;
+            display: grid;
+            grid-template-columns: 30% 30% 30%;
+            grid-template-rows: 30% 30% 30%;
+            justify-content: center;
+            background-color: black;
+            
+        }
+        #wrapper {
+            grid-column: 2/3;
+            grid-row: 1/4;
+            background-color: white;
+            height: 100%;
+            justify-content: center;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        #title {
+            text-align: center;
+            grid-column: 2/3;
+            grid-row: 2/3;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+        #header {
+            grid-column: 2/3;
+            grid-row: 2/3;
+            text-align: center;
+            color: darkblue;
+            font-size: 20px;
+        }
+        #long_paragraph {
+            text-align: center;
+            justify-content: center;
+            grid-column: 2/3;
+            grid-row: 2/3;
+            border: 20%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 10% 10% 10% 10%;
+            font-size: 25px;
+            display: block;
+
+        }
+        img {
+            justify-content: center;
+            grid-column: 2/3;
+            grid-row: 1/2;
+            width: 100%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        ul {
+            display: grid;
+            grid-column: 2/3;
+            grid-row: 3/4;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            list-style: none;
+            background-color: navy;
+            font-size: 90%;
+            font-family:Arial, Helvetica, sans-serif;
+            padding: 50px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            color: white;
+            text-align: center;
+        
+
+        }
+        .big {
+            font-size: 160%;
+    
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <img src="w09_ice_img.jpg" alt="bridge">
+        <p id="header">3 weeks ago</p>
+        <p id="title">Post Three</p>
+        <p id="long_paragraph">
+            This would be some text to go here and tell you this awesome article that they should definitely read. This would be some text to go here and tell you this awesome article that they should definitely read. This would be some text to go here.
+        </p>
+        <ul>
+            <li class="big">5<sup>m</sup> </li>
+            <li class="big">2031 </li>
+            <li class="big">15 </li>
+            <li>READ</li>
+            <li>VIEWS</li>
+            <li>COMMENTS</li>
+        </ul>
+    </div>
+</body>
+</html>
