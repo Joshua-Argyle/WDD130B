@@ -223,6 +223,86 @@ footer .social img {
     padding-top: 15px;
 }
 
+/* Page 2 Blog CSS */
+
+
+#blog {
+    text-align: center;
+    font-family: "Londrina Sketch", sans-serif, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
+    align-items: center;
+    color: white;
+    background-color: darkgreen;
+}
+
+
+
+.topics {
+    font-size: 40px;
+    color: black;
+    background-color: darkcyan;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+#paragraph1 {
+    text-align: left;
+    color: tan;
+    line-height: 40px;
+}
+#paragraph2 {
+    text-align: left;
+    color: tan;
+    line-height: 40px;
+}
+#paragraph3 {
+    text-align: left;
+    color: tan;
+    line-height: 40px;
+}
+
+
+#mainz {
+    margin: 50px;
+    background-color: darkgreen;
+    padding: 50px;
+
+}
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 50px;
+}
+.scorpion {
+    width: 550px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#paragraph4 {
+    text-align: left;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: tan;
+    line-height: 40px;
+    
+}
+.sheep {
+    width: 550px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+#paragraph5 {
+    font-family: "Bebas Neue", sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: tan;
+    line-height: 40px;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
