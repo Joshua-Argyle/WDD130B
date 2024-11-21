@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Creepster&family=Grenze+Gotisch:wght@100..900&family=Rakkas&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    background-color: lightgreen;
+    display: grid;
+    grid-template-columns: 1/4;
+
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+    grid-column: 1/4;
+}
+#form {
+    align-items: left;
+    text-align: left;
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+    grid-column: 2/3;
+}
+#firstName {
+    border-color: red;
+    box-shadow: 5px 5px;
+    border-radius: 5px;
+}
+#lastName {
+    border-color: red;
+    box-shadow: 5px 5px;
+    border-radius: 5px;
+}
+#email {
+    border-color: red;
+    box-shadow: 5px 5px;
+    border-radius: 5px;
+}
+#phone {
+    border-color: red;
+    box-shadow: 5px 5px;
+    border-radius: 5px;
+}
+#male {
+    
+}
+#female {
+    
+}
+#genre {
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+button {
+    text-align: center;
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 5px;
+
+}
+img {
+    text-align: right;
+    width: 200px;
+    grid-column: 1/2;
+    margin: 50px;
+}
