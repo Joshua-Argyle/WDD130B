@@ -39,7 +39,8 @@ nav {
     border-radius: 5%;
     margin-top: 10px; 
     word-spacing: 5px; 
-    padding-left: 30px; 
+    padding-left: 20px; 
+    max-height: 50px;
 }
 a {
     color: white;
@@ -79,6 +80,9 @@ p {
 h1 {
     grid-column: 1/2;
     grid-row: 1/2;
+    max-height: 50px;
+    margin: 0 0 0 0;
+    padding: 10px;
 }
 
 h2 {
@@ -93,8 +97,8 @@ h2 {
 #intro-image {
     grid-column: 1/2;
     grid-row: 2/3;
-    max-height: 250px;
-    max-width: 250px;
+    max-height: 350px;
+    max-width: 350px;
     border-radius: 100%;
     text-align: center;
 }
@@ -210,3 +214,52 @@ footer p a:hover {
 #i {
     grid-column: 3/4;
 }
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #2B2D42; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #EDF2F4;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
