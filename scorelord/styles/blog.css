@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Creepster&family=Grenze+Gotisch:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Creepster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    background-color: #2B2D42;
+}
+main {
+    display: grid;
+    grid-template-columns: 1/8;
+    grid-template-rows: 1/3;
+    background-color: #2B2D42;
+}
+nav {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    justify-content: space-around;
+    z-index: 1;
+    background-color: #2B2D42;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: "Grenze Gotisch", sans-serif;
+    padding: 10px;
+    border-radius: 5%;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    max-height: 40px;
+    min-height: 40px;
+    margin-top: 6px;
+    margin-left:50%;
+    margin-bottom: 10px;
+    word-spacing: 10px;
+    color: #EDF2F4;
+}
+a {
+    color: white;
+}
+
+#p1 {
+    font-size: 20px;
+}
+#intro {
+    background-color: #8D99AE;
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+h1 {
+    z-index: 2;
+
+}
+h1, h2, h3, h4 {
+    font-family: "Grenze Gotisch", sans-serif;
+    color: black;
+    font-size: 2em;
+    padding: 10px;
+    background-color: #D80032;
+    max-height: 30px;
+    min-height: 20px;
+    margin-top: 0px;
+}
+.box {
+    background-color: #8D99AE;
+    border-width: 10px;
+    border-color: #2B2D42;
+    border-style: double;
+    border-radius: 10px;
+
+}
+
+p {
+    font-family: Roboto, Helvetica, sans-serif;
+    color: var(--paragraph-color-on-white);
+    font-size: 25px;
+    padding: 30px;
+    color: #EDF2F4;
+    z-index: 1;
+    background-color: #2B2D42;
+    max-height: 100px;
+    margin-top: 0px;
+    min-height: 50px;
+    padding-bottom: 10px;
+}
+h1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+#intro {
+    grid-row: 1/2;
+    grid-column: 1/3; 
+}
+#desert {
+    grid-row: 3/5;
+    grid-column: 1/2;
+    margin-left: 100px;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: #2B2D42;
+    margin-top: 30px;
+}
+#blackbird {
+    grid-row: 5/7;
+    grid-column: 1/2;
+    margin-left: 100px;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: #2B2D42;
+    margin-top: 30px;
+}
+#sparrows {
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+#sorrows {
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+#ventures {
+    grid-row: 5/6;
+    grid-column: 2/3;
+}
+
+#waters {
+    grid-row: 6/7;
+    grid-column: 2/3;
+    max-height: 150px;
+    min-height: 120px;
+    padding-bottom: 10px;
+
+}
+
+footer {
+    grid-row: 7/8;
+    grid-column: 1/3;
+    background-color: #2B2D42;
+    color: black;
+    padding: 15px 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 50px;
+}
+footer a {
+    color: #EDF2F4; 
+    text-decoration: none;
+}
+footer a:hover {
+    color: black;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+.social img {
+    
+    max-height: 50px;
+    display: grid;
+    grid-template-columns: 1/4;
+    width: 80%;
+    
+}
+#f {
+    grid-column: 1/2;
+}
+#t {
+    grid-column: 2/3;
+}
+
+#i {
+    grid-column: 3/4;
+}
